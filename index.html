@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Professora Cecília</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <img src="Imagens/professora.jpg" alt="Foto da professora Cecília" class="foto">
+    <h1>Eu sou Cecília</h1>
+    <h2>Professora de Matemática</h2>
+    <p>Sou professora da EE Prof. Eduardo Velho Filho. Estou ministrando aulas de Matemática, Programação e Orientação de Estudos.</p>
+    
+    <h3>Minhas habilidades</h3>
+    <ul class="habilidades">
+      <li>Álgebra Linear</li>
+      <li>Geometria Espacial</li>
+      <li>Funções Polinomiais</li>
+      <li>Pensamento Computacional</li>
+    </ul>
+
+    <div class="botoes-contato">
+      <a href="https://wa.me/5511999999999" target="_blank" class="botao verde">WhatsApp</a>
+      <a href="mailto:cecilbf@hotmail.com" class="botao azul">E-mail</a>
+      <a href="vitae.pdf" download class="botao cinza">Baixar Currículo</a>
+    </div>
+
+    <div class="redes-sociais">
+      <a href="https://www.linkedin.com/in/seuusuario" target="_blank">LinkedIn</a>
+      <a href="https://www.instagram.com/seuusuario" target="_blank">Instagram</a>
+    </div>
+  </div>
+
+  <footer>
+    © <span id="ano-atual"></span> Cecília • Todos os direitos reservados
+  </footer>
+
+  <script>
+    document.getElementById('ano-atual').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

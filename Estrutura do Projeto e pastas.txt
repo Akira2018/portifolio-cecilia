@@ -1,0 +1,8 @@
+Estrutura do Projeto e pastas
+
+SeuProjeto/
+├── index.html
+├── style.css
+├── Imagens/
+│   └── professora.jpg
+├── currículo.pdf
